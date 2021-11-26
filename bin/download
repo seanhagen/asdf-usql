@@ -8,7 +8,7 @@
 
 download() {
   mkdir -p "$ASDF_DOWNLOAD_PATH/bin" &&
-    curl -fsSL "$(get_download_url)" | tar xzf - -C "$ASDF_DOWNLOAD_PATH/bin"
+    curl -fsSL "$(get_download_url)" | tar xjf - -C "$ASDF_DOWNLOAD_PATH/bin"
   exit $?
 }
 
