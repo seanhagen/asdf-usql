@@ -11,7 +11,6 @@
 ## Plugin Dependencies
 
 - `curl` - for usql downloads from upstream releases
-- `icu4c` - only on macOS, can be installed via `brew`
 
 ## Install
 
