@@ -18,6 +18,8 @@ jobs:
         os: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
+      - if: matrix.os == 'macos-latest'
+        run: brew install icu4c
       - uses: asdf-vm/actions/plugin-test@v1
         with:
           command: usql --version

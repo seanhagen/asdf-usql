@@ -11,6 +11,7 @@
 ## Plugin Dependencies
 
 - `curl` - for usql downloads from upstream releases
+- `icu4c` - [only on macOS](https://github.com/xo/usql#macos-notes), can be installed via `brew`
 
 ## Install
 
