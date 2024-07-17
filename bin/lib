@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 get_github_org() {
-    echo "seanhagen"
+    echo "xo"
 }
 
 get_github_repo() {
